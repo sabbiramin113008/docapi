@@ -62,19 +62,19 @@ class Response:
 
 
 class API:
-    def __init__(self, req, res):
+    def __init__(self):
         self.url = ''
         self.name = ''
         self.details = ''
-        self.request = req
-        self.response = res
+        self.request = Request()
+        self.response = Response()
 
 
 if __name__ == '__main__':
     doc = Doc(name='My API List')
-    req, res = Request(),Response()
 
-    get_book_by_id = API(req, res)
+
+    get_book_by_id = API()
     get_book_by_id.url = '/api/books/id'
     get_book_by_id.details = 'This is the API is about getting book details by ID'
     get_book_by_id.request.header ={'http-api-key':'nksks.wlekjlk43k3isdslk3'}
