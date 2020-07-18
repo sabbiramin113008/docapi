@@ -12,7 +12,7 @@ setup(
     name='docapi',
     author='S.M. Sabbir Amin',
     author_email='<sabbiramin.cse11ruet@gmail.com>',
-    version='0.5.0',
+    version='0.7.0',
     description='A Pythonic API Documentation Utility',
     packages=["docapi" ],
     license='GNU GPL v3 or later',

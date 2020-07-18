@@ -5,3 +5,6 @@ __pycache__/
 .virtualenvironment
 .virtualenvironment/
 *.pyc
+/dist
+/build
+/docapi.egg-info
