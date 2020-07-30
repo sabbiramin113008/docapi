@@ -26,3 +26,4 @@ if __name__ == '__main__':
     doc.add_api(api=get_book_by_id)
 
     doc.build()
+    doc.build_server()

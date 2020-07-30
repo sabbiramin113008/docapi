@@ -13,7 +13,7 @@ setup(
     author='S.M. Sabbir Amin',
     author_email='<sabbiramin.cse11ruet@gmail.com>',
     version='0.7.0',
-    description='A Pythonic API Documentation Utility',
+    description='A Pythonic API Documentation and Mock Server Generation Utility',
     packages=["docapi" ],
     license='GNU GPL v3 or later',
     install_requires=[

@@ -1,7 +1,7 @@
 ## Intro
 
 `docapi` is a Python API Documentation Utility.
-Write API documentation as you write codes.
+Write API documentation as you write codes and Generate Mock Server Code Immediately.
    
 ## Why Build Another One, When We Already Have So Many?
 1. It is always fun to learn something while building it.
@@ -110,5 +110,22 @@ simply by this command,
 doc.build()
 ```
 A 'document.md' will be generated afterwards. 
+
+## How To Build a Mock API Server
+----------------------------------
+
+The lates version of this module can generate simple `Flask` based Web Application
+Server, from the documentation. Just add,
+```python
+...
+doc.build_server()
+```
+This will generate a `server.py` file with all the API routes. 
+
+Detailed Example can be found on the `Example` directory.
+
+'NB' The Server code is written using `Flask`, so it is necessary to have this installed on your machine, 
+if you are willing to generate the server code for your mock service.
+
 
 Voila, it is easy, simple and expressive.
