@@ -109,7 +109,7 @@ simply by this command,
 ```python
 doc.build()
 ```
-A 'document.md' will be generated afterwards. 
+A `document.md` will be generated afterwards. 
 
 ## How To Build a Mock API Server
 ----------------------------------
@@ -124,7 +124,7 @@ This will generate a `server.py` file with all the API routes.
 
 Detailed Example can be found on the `Example` directory.
 
-'NB' The Server code is written using `Flask`, so it is necessary to have this installed on your machine, 
+`NB`: The Server code is written using `Flask`, so it is necessary to have this installed on your machine, 
 if you are willing to generate the server code for your mock service.
 
 
