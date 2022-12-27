@@ -17,7 +17,7 @@ setup(
     packages=["docapi" ],
     license='GNU GPL v3 or later',
     install_requires=[
-        'setuptools == 39.0.1',
+        'setuptools == 65.5.1',
     ],
     package_data={
     },
